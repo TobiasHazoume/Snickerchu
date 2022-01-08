@@ -1,4 +1,5 @@
 import discord
+import os # to get key from pc
 from discord.ext import commands  # extension
 import asyncio
 import random
@@ -9,6 +10,7 @@ client = commands.Bot(command_prefix='.')  # made an instance of the bot and set
 client.remove_command('help')  # remove default help command
 print("Pika Pika!")  # print in console
 
+discordKey = os.environ.get('Discord_API_Key') # get api key from pc locally
 
 #  def is how you start a function
 #  an event is a piece of code that runs when a specific activity as happened
@@ -277,4 +279,4 @@ async def _8ball(ctx, *, question):  # * allows you to take multiple arguments a
     await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
 '''
 
-client.run('NjA3NzE0NzI0MTkyMTkwNDY3.XUdosQ.8WHA5NxnXLm_RB35zXwVDrbQj4I')  # this connects your code to your bot
+client.run(discordKey)  # this connects your code to your bot
