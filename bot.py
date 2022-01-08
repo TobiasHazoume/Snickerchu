@@ -274,7 +274,7 @@ async def _8ball(ctx, *, question):  # * allows you to take multiple arguments a
         'My reply is no.',
         'My sources say no.',
         'Outlook not so good.',
-        'Very doubtful.',
+        'Very doubtful.' ,
     ]
     await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
 '''
