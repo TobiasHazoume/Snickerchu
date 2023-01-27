@@ -38,6 +38,6 @@ Removes the Friend Code of the person you mention BUT you have to include the fr
     
 ## Why
 
-Discord lets you add all sorts of connections to your profile BUT nintendo friend codes which was pretty annoying when Pokemon Sun and Moon was out and friends didnt have access to thier switches to provides thier friend codes
+Discord lets you add all sorts of connections to your profile BUT Nintendo friend codes. This was pretty annoying when Pokémon Sword and Shield came out since my friends couldnt remember thier codes by heart and had to grab thier switch everytime someone asked.
 
 ![meee ](https://user-images.githubusercontent.com/9100268/214987336-6e96f492-7ffd-43c0-a381-4c9d48ae62f7.png)
